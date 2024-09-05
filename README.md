@@ -35,8 +35,7 @@ Follow these steps to set up and run the project on your local machine:
 # 🌐 Technologies Used
 - Java
 - JDBC (Java Database Connectivity)
-- MySQL (or your preferred database system)
-
+- MySQL 
 # 📸 Screenshots
 - Screenshot 1
 
