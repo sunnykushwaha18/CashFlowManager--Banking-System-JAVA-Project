@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import static java.lang.Class.forName;
 
-public class BankingApp {
+public class CashFlowApp {
     private static final String url = "jdbc:mysql://localhost:3306/banking_system";
     private static final String username = "root";
     private static final String password = "sunanj";
@@ -29,7 +29,7 @@ public class BankingApp {
             long account_number;
 
             while(true){
-                System.out.println("*** WELCOME TO BANKING SYSTEM ***");
+                System.out.println("*** WELCOME TO CASHFLOW MANAGER SYSTEM ***");
                 System.out.println();
                 System.out.println("1. Register");
                 System.out.println("2. Login");
@@ -95,7 +95,7 @@ public class BankingApp {
                             System.out.println("Incorrect Email or Password!");
                         }
                     case 3:
-                        System.out.println("THANK YOU FOR USING BANKING SYSTEM!!!");
+                        System.out.println("THANK YOU FOR USING CASHFLOW MANAGER SYSTEM!!!");
                         System.out.println("Exiting System!");
                         return;
                     default:
